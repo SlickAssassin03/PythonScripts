@@ -1,3 +1,5 @@
+# This is just a tool I made, thought was cool, and put on here. Hope you can learn something from it!
+
 def obj(liststyle=0, *args):  # Does not take lists yet.
     style = ['. ', ' >> ', ' ··> ', ' : ', ' > ']
     if (liststyle>4):
@@ -20,3 +22,4 @@ def obj(liststyle=0, *args):  # Does not take lists yet.
 b = ['You cannot pass lists yet, it will ignore them.']
 a = 'You can pass variables in obviously.'
 obj(0, 'Line one is kind of cool!', 'Line two is less cool', a, b)  # You can pass as many args as you like, it will ignore lists/tuples.
+
